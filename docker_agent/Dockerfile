@@ -4,7 +4,7 @@ ADD /docker_agent /agent
 
 # @TODO to be replaced with `pip install pommerman`
 ADD . /pommerman
-RUN cd /pommerman && pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/  .
+RUN cd /pommerman && pip install .
 # end @TODO
 
 EXPOSE 10080
